@@ -11,7 +11,7 @@
 ## 项目模块0
 * CSS：网页页面布局文件
 * WebContent：网页代码文件（html和jsp）
-* src：用户，servlet服务等类的java文件
+* src：用户，servlet服务等类的java文件<br>
 Wefly文件是整个网页航班预定系统的项目工程。<br>
 PS：详情请自己下载运行，建议从login.html页面开始。
 ## 注意事项
