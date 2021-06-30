@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./../fontawesome/css/all.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./icon/font_2461258_pwdi9c12eig/iconfont.css">
+   
+   	  <script>
+        function  move(){
+        var v=phone.value;
+        if(v==""){
+            var e=document.getElementById("phoneline");
+            e.style.transform="translateX(10px) translateY(-70px)";
+            e.style.fontSize="13px"
+        }
+        }
+        function  back(){
+        var v=phone.value;
+        if(v==""){
+            var e=document.getElementById("phoneline");
+            e.style.transform="translateX(24px) translateY(-55px)";
+            e.style.fontSize="14px"
+        }
+        }
+        function  move2(){
+        var v=password.value;
+        if(v==""){
+            var e=document.getElementById("passwordline");
+            e.style.transform="translateX(10px) translateY(-70px)";
+            e.style.fontSize="13px"
+        }
+        }
+        function  back2(){
+        var v=password.value;
+        if(v==""){
+            var e=document.getElementById("passwordline");
+            e.style.transform="translateX(24px) translateY(-55px)";
+            e.style.fontSize="14px"
+        }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="all">
+        <div class="icon-warrper">
+            <img src="./img/plane.png">
+        </div>
+        <div class="main">
+            <div class="sign-in-warpper">
+                <div class="sign-in">
+                    <div class="header">
+                        <h5>Sign In</h5>
+                    </div>
+                    <div class="form-warpper">
+                    
+                        <form action="login"  class="sign-in-form" method = "post">
+                            <input type="tel" name = "phoneNumber" id="phone"  onfocus="move()" onblur = "back()" class="phonenumber" placeholder="PHONE"><span id="phoneline"></span>
+                            <input type="password" name = "password" id="password"  onfocus="move2()" onblur = "back2()" class="password" placeholder="PASSWORD"><span id="passwordline"></span>
+                            <!--<input type="submit" value="SUBMIT" class="submit">-->
+                            <a href="search.jsp"><button type="submit" class="submit"><i class="icon iconfont">&#xe65d;</i></button></a>
+                        </form>
+                        
+                    </div>
+                    <div class="register">
+                        <a href="register.html"><span>CREATE ACCONT</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

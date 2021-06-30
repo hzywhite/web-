@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./../fontawesome/css/all.css">
+    <link rel="stylesheet" href="./CSS/register.css">
+    <link rel="stylesheet" href="./icon/font_2461258_pwdi9c12eig/iconfont.css"> 
+</head>
+
+<script>
+//Ajax动态校验用户名
+	var xmlhttp;
+	
+	function check(){
+	  var username = document.getElementById("usernameID").value;
+	  
+	  console.log(username);
+	  //var url = "https://how2j.cn/study/checkName.jsp?name="+name;
+	  
+	  var url = "checkName.jsp";
+	 
+	  xmlhttp =new XMLHttpRequest();
+	  xmlhttp.onreadystatechange=checkResult; //响应函数
+	  
+	  xmlhttp.open("GET",url,true);   //设置访问的页面
+	  
+	  xmlhttp.send(null);  //执行访问
+	}
+	 
+	function checkResult(){
+		
+	  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+	    document.getElementById('userNameCheckResult').innerHTML=xmlhttp.responseText;
+	  
+	}
+</script>
+
+<body>
+    <div class="all">
+        <div class="icon-warrper">
+            <img src="./img/plane.png">
+        </div>
+        <div class="bigword">
+            <h3>CREATE AN</h3>
+            <h3>ACCOUNT</h3>
+        </div>
+        <div class="main">
+            <div class="sign-in-warpper">
+                <div class="sign-in">
+                    <div class="header">
+                        <h5>Register</h5>
+                    </div>
+                    <div class="form-warpper">
+                        <form action="register" class="sign-in-form" method="post">
+                            <input type="text" name="username" id = "usernameID" placeholder="NAME" onkeyup="check()"><span id = "userNameCheckResult"></span>
+                            <input type="text" name="IDNum" id = "IDNumID" placeholder="IDNUM">
+                            <input type="tel" class="phonenumber" id = "phonenumberID" placeholder="PHONE" name="phonenumber">
+                            <input type="password" class="password" id = "passwordID" placeholder="PASSWORD" name="password">
+                            
+                            <a href="#"><button type="submit" class="submit"><i class="icon iconfont">&#xe65d;</i></button></a>
+                        </form>
+                    </div>
+                    <div class="register">
+                        <a href="login.html"><span>ALREADY HAVE AN ACCOUNT?</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
