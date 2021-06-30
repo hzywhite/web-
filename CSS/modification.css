@@ -1,0 +1,13 @@
+.main{
+    background: rgb(235,236,237);
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topbar .logo:hover{
+    text-decoration: none;
+    color:#fff;
+}

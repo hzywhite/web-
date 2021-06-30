@@ -1,0 +1,177 @@
+/* 棣栭〉 */
+body{
+    background: rgb(235,236,237);
+}
+.all{
+    width: 100%;
+    height: 700px;
+}
+/* 瀵艰埅鏍� */
+.topbar-warrper{
+    height: 62px;
+    line-height: 62px;
+    background: rgb(40,48,61);
+}
+.topbar-warrper a{
+    color: #fff;
+}
+.topbar{
+    position: relative;
+}
+.leftbar,
+.leftbar li,
+.usersection li{
+    float: left;
+}
+/* 宸︽爮 */
+.leftbar{
+    position: relative;
+}
+.leftbar .logo{
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+}
+.logo i{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    color: rgb(254,214,45);
+}
+.leftbar .flights{
+    position: absolute;
+    margin-left: 100px;
+}
+/* 鍙充晶鐢ㄦ埛鏍� */
+.usersection{
+    float: right;
+}
+.usersection i{
+    margin: 0 10px;
+}
+.usersection .sign-in:hover,
+.flights:hover{
+    color: rgb(255,214,20);
+}
+/* 涓昏鍔熻兘 */
+.main{
+    height: 620px;
+    background: rgb(255,214,0);
+}
+/* LOGO */
+.main .biglogo{
+    width: 1020px;
+    height: 56px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 800;
+}
+.biglogo .logocontainer{
+    font-size: 60px;
+}
+.logocontainer a{
+    color: rgb(44,49,62);
+}
+.logocontainer i{
+    color: #fff;
+}
+.biglogo .slogn{
+    height: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: normal;
+}
+/* 鐧婚檰 娉ㄥ唽 */
+.UIcontainer{
+
+}
+.UIcontainer .link{
+
+}
+/* 鏃呰鏂瑰紡 */
+.link .linkflights{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.linkflights a{
+    color: rgb(44,49,62);
+    font-size: 18px;
+    font-weight: 900;
+}
+.linkflights i{
+    margin-right: 10px;
+}
+/* 鏌ヨ鏃呰淇℃伅 */
+.UIcontainer .formcontainer{
+    height: 500px;
+}
+.formcontainer span,.formcontainer:hover i{
+    color: #000;
+    font-weight: bold;
+}
+.formcontainer:hover span,.formcontainer:hover i{
+    color: #000;
+    font-weight: bold;
+}
+.formcontainer .form-flights{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    height: 56px;
+    line-height: 56px;
+    position: relative;
+}
+/* 杈撳叆鏉″ぇ灏� */
+.form-flights input{
+    font-size: 30px;
+    border:none;
+    outline: none;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 60px;
+    width: 300px;
+    padding: 0;
+    padding-left: 35px;
+    padding-right: 20px;
+}
+.form-flights .from,
+.form-flights .to,
+.form-flights .date{
+    padding-left: 35px;
+    padding-right: 25px;
+}
+/* 璁剧疆鏃ユ湡鏉� */
+.form-flights .date{
+    font-weight: bold;
+    color: rgb(117,117,117);
+}
+/* 鐐瑰嚮涓嬭竟妗嗗彉钃� */
+.form-flights input:not(.submit){
+    border-bottom: 3px solid transparent;
+}
+.form-flights input:not(.submit):focus{
+    border-bottom: 3px solid rgb(51,144,255);
+}
+/* 鎸夐挳鏍峰紡 */
+.form-flights .submit{
+    background: rgb(40,48,61);
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    margin: 40px auto;
+}
+
+/* 鍙屽悜绠ご鏍煎紡 */
+.form-flights .iconarrow{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    transform: translateY(10px);
+}

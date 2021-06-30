@@ -1,0 +1,122 @@
+/* µÇÂ½½çÃæ */
+.topbar-warrper{
+    height: 62px;
+    line-height: 62px;
+    background: rgb(40,48,61);
+}
+.topbar-warrper a{
+    color: #fff;
+}
+.topbar{
+    position: relative;
+}
+.leftbar,
+.leftbar li,
+.usersection li{
+    float: left;
+}
+.leftbar{
+    position: relative;
+}
+.leftbar .logo{
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+
+}
+.logo i{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    color: rgb(254,214,45);
+}
+.leftbar .flights{
+    position: absolute;
+    margin-left: 100px;
+    font-size: 16px;
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+}
+.usersection{
+    float: right;
+    font-size: 16px;
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+
+}
+.usersection i{
+    margin: 0 10px;
+}
+.usersection .sign-in:hover,
+.flights:hover{
+    color: rgb(255,214,20);
+}
+.main{
+    height: 800px;
+    background: rgb(255,214,0);
+}
+.main .biglogo{
+    width: 1020px;
+    height: 56px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 700;       
+}
+.biglogo .logocontainer{
+    font-size: 60px;
+}
+.logocontainer a{
+    color: rgb(44,49,62);
+}
+.logocontainer i{
+    color: #fff;
+}
+.UIcontainer{
+
+}
+.UIcontainer .link{
+
+}
+.link .linkflights{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.linkflights .slogn{
+    font-size: 30px;
+    font-weight: 700;
+}
+.UIcontainer .formcontainer{
+}
+.formcontainer span,.formcontainer:hover i{
+    color: #000;
+    font-weight: bold;
+}
+.formcontainer:hover span,.formcontainer:hover i{
+    color: #000;
+    font-weight: bold;
+}
+.formcontainer .form-flights{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 56px;
+    line-height: 56px;
+    position: relative;
+}
+.form-flights input{
+    font-size: 30px;
+    border:none;
+    outline: none;
+    margin: 0 10px;
+    height: 60px;
+    width: 350px;
+    padding: 0;
+}
+.form-flights .submit{
+    margin-top: 30px;
+    background: rgb(40,48,61);
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+}

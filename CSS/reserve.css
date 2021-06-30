@@ -1,0 +1,245 @@
+/*鑳屾櫙棰滆壊 */
+body{
+    background: rgb(235,236,237);
+}
+.all{
+    width: 100%;
+    height: 1000px;
+}
+/* 瀵艰埅鏍� */
+.topbar-warrper{
+    height: 62px;
+    line-height: 62px;
+    background: rgb(40,48,61);
+}
+.topbar-warrper a{
+    color: #fff;
+}
+.topbar{
+    position: relative;
+}
+.leftbar,
+.leftbar li,
+.usersection li{
+    float: left;
+}
+/* 宸︽爮 */
+.leftbar{
+    position: relative;
+}
+.leftbar .logo{
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+}
+.logo i{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    color: rgb(254,214,45);
+}
+.leftbar .flights{
+    position: absolute;
+    margin-left: 100px;
+}
+/* 鍙充晶鐢ㄦ埛鏍� */
+.usersection{
+    float: right;
+}
+.usersection i{
+    margin: 0 10px;
+}
+.usersection .sign-in:hover
+{
+    color: rgb(255,214,20);
+}
+.main{
+    position: relative;
+    height: 1000px;
+}
+/* 鏌ヨ鏍� */
+.searchline-warpper{
+    width: 100%;
+    height: 140px;
+    background: rgb(255,214,20);
+    position: relative;
+}
+.searchline-warpper .searchline{
+    height: 140px;
+    box-sizing: border-box;
+}
+.searchline form{
+    width: 1280px;
+    padding: 0 30px;
+    padding: 40px 30px 46px 150px;
+    margin: 0 auto;
+}
+.searchline-warpper form input{
+    width: 205px;
+    height: 54px;
+    border: none;
+    outline: 0 0 0 0 ;
+    padding: 0 48px 0 16px;
+    color: rgb(25,28,36);
+    line-height: 17.234px;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+}
+.searchline-warpper form .from::-webkit-input-placeholder{
+    width: 40px;
+    border: 1px solid rgb(227, 228, 230);
+    display: block;
+    border-radius: 3px;
+}
+.searchline-warpper form .to::-webkit-input-placeholder{
+    width: 20px;
+    border: 1px solid rgb(227, 228, 230);
+    display: block;
+    border-radius: 3px;
+}
+.searchline-warpper form input:hover::-webkit-input-placeholder{
+    border: 1px solid black;
+    box-shadow: 0 2px 2px rgba(0, 0,0 ,.3) ;
+}
+.searchline-warpper button{
+    height: 54px;
+    width: 54px;
+    transform: translateY(3.5px);
+    color: #fff;
+    background: rgb(16,18,23);
+}
+.searchline-warpper button i{
+    font-size: 28px;
+}
+/* 璁剧疆鑸彮淇℃伅鍒楄〃 */
+.information-list-warpper{
+    height: 500px;
+}
+
+.information-list-warpper .information-list{
+    height: 200px;
+}
+.information-list-warpper .informations{
+    width: 761px;
+    height: 161px;
+    margin: 30px auto;
+    
+}
+/* 鍗曚釜鏃呰璇︾粏淇℃伅 */
+.informations .flightsall{
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+    transition: .4s;
+}
+.informations .flightsall:hover{
+    border: 1px solid black;
+}
+/* 宸︿晶寰�杩旇埅鐝俊鎭� */
+.flightsall .flights-list{
+    width: 599px;
+    height: 137px;
+    border-right: 1px solid rgb(204, 206, 207);
+    float: left;
+    padding: 12px 0;
+}
+/* 涓婁笅鍏卞悓澶у皬 */
+.flights-list li{
+    padding: 12px;
+    height: 39px;
+}
+/* 涓婅埅鐝俊鎭� */
+.flights-list .from-flights-information-warpper{
+    margin-bottom: 7px;
+    margin-top: 40px;
+}
+/* 鑸彮鍏徃鍥炬爣 */
+.flightsall .i i{
+    width: 40px;
+    height: 39px;
+    float: left;
+    font-size: 25px;    
+}
+.flightsall .section-time{
+    float: left;
+    height: 39px;
+    line-height: 21px;
+    font-weight: 600;
+    font-size: 16px;
+    transform: translateY(-5px) translateX(30px);
+}
+.flightsall .section-stops{
+    float: left;
+    height: 65px;
+    font-size: 14px;
+    font-weight: 600;
+    transform: translateX(55px) translateY(-20px);
+    text-align:center;
+}
+.flightsall .section-duration{
+    float: right;
+    height: 39px;
+    font-size: 14px;
+    font-weight: 600;
+    /*transform: translateX(-70px) translateY(2px);*/
+    text-align:center;
+}
+/* 涓嬭埅鐝俊鎭�
+.to-flights-information-warpper .to-icon{
+    width: 40px;
+    height: 39px;
+    float: left;
+}
+.to-flights-information-warpper .section-time{
+    float: left;
+}
+.to-flights-information-warpper .section-stops{
+    float: left;
+}
+.to-flights-information-warpper .section-duration{
+    float: left;
+} */
+/* 鍙充晶浠锋牸鐣岄潰 */
+.flightsall .price-warpper{
+    padding: 12px;
+    width: 137px;
+    height: 137px;
+    float: right;
+    position: relative;
+}
+.price-warpper .price{
+    color:rgb(25, 28, 36);
+    /*font-size: 24px;*/
+    font-weight: 800;
+    margin-top: 20px;
+}
+.price-warpper button{
+    width: 132px;
+    height: 34px;
+    padding: 0 5px;
+    background: rgb(255,214,0);
+    color:rgb(25, 28, 36);
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 20px;
+    outline: 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+}
+.price-warpper button:hover{
+    background: rgb(255,218,5);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+}
+.bigfont{
+	font-size:35px;
+	font-weight: 500;
+}
+.bigarrow{
+	text-align:center;
+	font-size:25px;
+}
